@@ -1,0 +1,19 @@
+Options +FollowSymLinks
+Options +Indexes
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Jika file ada di public/storage, biarkan Apache akses langsung
+    RewriteCond %{REQUEST_URI} ^/storage/
+    RewriteRule ^ - [L]
+
+    # Jika bukan file/folder, arahkan ke index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+</IfModule>
