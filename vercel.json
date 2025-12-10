@@ -26,9 +26,10 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "sql305.infinityfree.com",
-        "DB_PORT": "3306",
-        "DB_DATABASE": "if0_40619988_backend_mobile",
-        "DB_USERNAME": "if0_40619988"
+        "DB_HOST": "gateway01.ap-northeast-1.prod.aws.tidbcloud.com",
+        "DB_PORT": "4000",
+        "DB_DATABASE": "test",
+        "DB_USERNAME": "44Vcmih1QDAkt9G.root",
+        "DB_PASSWORD": "tuuyghPz4SCBIK7A"
     }
 }
