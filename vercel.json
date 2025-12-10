@@ -14,7 +14,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://backend-velody.free.nf",
+        "APP_URL": "https://backend-velody.vercel.app",
         "APP_KEY": "base64:94FT0+HXSZdF1dcR6cuxJl4/C+Nf779oFbUK12GcejM=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
